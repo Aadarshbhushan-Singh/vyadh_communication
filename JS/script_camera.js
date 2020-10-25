@@ -27,6 +27,23 @@ function videoError(e){
     
 }
 
+// Adding functionality to the navigation buttons
+document.getElementById("navigation_home").onclick=function(){
+    location.href="index.html";
+};
+
+document.getElementById("navigation_autonomous").onclick=function(){
+    location.href="autonomous.html";
+};
+
+document.getElementById("navigation_control").onclick=function(){
+    location.href="control.html";
+};
+
+document.getElementById("navigation_science").onclick=function(){
+    location.href="science.html";
+};
+
 //Selecting the camera buttons for future use
 /*
 var cam1=document.querySelector("#cam_01");
@@ -118,6 +135,26 @@ function checkKeyDown(key){
     else if(key.keyCode=="72"){
         keyValue=72;
         console.log("Changed Value: ", keyValue);
+    }// 8
+    else if(key.keyCode=="56" || key.keyCode=="104"){
+        keyValue=56;
+        console.log("Changed Value: ",keyValue);
+    }// 4
+    else if(key.keyCode=="52" || key.keyCode=="100"){
+        keyValue=52;
+        console.log("Changed value: ",keyValue);
+    }// 5
+    else if(key.keyCode=="53" || key.keyCode=="101"){
+        keyValue=53;
+        console.log("Changed value: ",keyValue);
+    }// 6
+    else if(key.keyCode=="54" || key.keyCode=="102"){
+        keyValue=54;
+        console.log("Changed value: ",keyValue);
+    }// 0
+    else if (key.keyCode=="48" || key.keyCode=="96"){
+        keyValue=48;
+        console.log("Changed value: ",keyValue);
     }
 }
 
@@ -171,6 +208,26 @@ function checkKeyUp(key){
     else if (key.keyCode=="72"){
         keyValue=0;
         console.log("Value reseted to: ", keyValue);
+    }// 8
+    else if(key.keyCode=="56" || key.keyCode=="104"){
+        keyValue=0;
+        console.log("Value reseted to: ",keyValue);
+    }// 4
+    else if(key.keyCode=="52" || key.keyCode=="100"){
+        keyValue=0;
+        console.log("Value reseted to: ",keyValue);
+    }// 5
+    else if(key.keyCode=="53" || key.keyCode=="101"){
+        keyValue=0;
+        console.log("Value reseted to: ",keyValue);
+    }// 6
+    else if(key.keyCode=="54" || key.keyCode=="102"){
+        keyValue=0;
+        console.log("Value reseted to: ",keyValue);
+    }// 0
+    else if (key.keyCode=="48" || key.keyCode=="96"){
+        keyValue=0;
+        console.log("Value reseted to: ",keyValue);
     };
 }
 

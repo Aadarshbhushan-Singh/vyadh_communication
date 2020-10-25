@@ -52,6 +52,20 @@ header{
 .cam_buttons{
     padding:3% 30% 3% 30%;
 }
+/*****************************   Navigation   ****************************************/
+.navigation_buttons{
+    margin-left: 22%;
+}
+
+.navigation_buttons button{
+    /* margin-left: 2%; */
+    /* margin-top: 2%; */
+    margin: 2%;
+    padding: 1%;
+}
+
+
+
 /*******************************  Camera  ******************************************/
 .camera_disp video{
     padding: 20px;
