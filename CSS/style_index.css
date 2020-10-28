@@ -1,50 +1,126 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    background: black;
-    overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+#seds_logo{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  height: 20%;
+  animation: seds;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes seds{
+  0%{
+    top: -20%
   }
-  #seds_logo{
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    height: 20%;
+  100%{
+    top: 5%
+  }
+}
+#vyadh_logo{
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  width: 10%;
+  height: 20%;
+  animation: vyadh;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes vyadh{
+  0%{
+    top: -20%
+  }
+  100%{
+    top: 5%
+  }
+}
+.text-box{
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  font-size: 200%;
+  color: white;
+  animation: seds-buttons;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes seds-buttons{
+  0%{
+    top: -35%
+  }
+  100%{
+    top:35%
+  }
+}
+a{
+  color: white;
+  text-decoration: none;
+
+}
+/*.heading:before{
+  content: '';
+  position:absolute;
+  left: -20%;
+  width: 120%;
+  height:100%;
+  background: linear-gradient(90deg,transparent 0%,#000 5%,#000 100%);
+  animation: animate 5.5s linear forwards;
+  animation-delay: 2s;
+}
+@keyframes animate{
+  0%{
+    left:100%;
 
   }
-  #vyadh_logo{
-    position: absolute;
-    top: 5%;
-    left: 80%;
-    width: 10%;
-    height: 20%;
+  100%{
+    left: -20%;
   }
-  .text-box{
-    position: absolute;
-    left: 30%;
-    top: 35%;
-    font-size: 200%;
-    color: white;
-  }
-  a{
-    color: white;
-    text-decoration: none;
+}*/
+.heading span{
+  color: #ff022c;
 
-  }
-  .button{
-    display: inline-block;
-    border: 1px solid white;
-    justify-content: center;
-    margin: 3% 1% 1% 3%;
-  }
-  #btn-camera{
-    padding: 2% 12.2%;
-  }
-  #btn-autonomous{
-    padding: 2% 5.5%;
-  }
-  #btn-control, #btn-science{
-    padding: 2% 12%;
-  }
-  
-  
+}
+/*
+video{
+  position:absolute;
+  top: -12%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  object-fit: cover;
+  z-index: 2;
+  pointer-events: none;
+  mix-blend-mode: screen;
+
+}*/
+.button span{
+  color: #ff022c;
+
+}
+.button{
+  display: inline-block;
+  border: 1px solid white;
+  justify-content: center;
+  margin: 3% 1% 1% 3%;
+}
+#btn-camera{
+  padding: 2% 12.2%;
+}
+#btn-autonomous{
+  padding: 2% 5.5%;
+}
+#btn-control, #btn-science{
+  padding: 2% 12%;
+}
+
