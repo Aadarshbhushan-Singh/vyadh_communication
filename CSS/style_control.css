@@ -27,11 +27,11 @@ header{
     background-color: rgb(7, 139, 179);
 }
 .logo_image img{
-    width: 15%;
+    width: 10%;
 }
 #seds_logo{
     float: left;
-    width: 10%;
+    width: 7%;
     margin:1% 1% 1% -5%;
 }
 #vyadh_logo{
@@ -40,13 +40,16 @@ header{
 }
 .heading h1{
     margin: 1% auto 0% 25%;
+    font-size: 90%;
 }
 .heading h3{
     margin: 1% auto 0% 25%;
+    font-size: 90%;
 }
 /*****************************   Navigation   ****************************************/
 .navigation_buttons{
     margin-left: 22%;
+    font-size: 60%;
 }
 
 .navigation_buttons button{
@@ -55,7 +58,45 @@ header{
     margin: 2%;
     padding: 1%;
 }
+/*****************************   Compass   ****************************************/
 
+#rover_compass{
+    width: 10%;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+#rover_needle{
+    width: 1%;
+    position: absolute;
+    left: 19.55%;
+    top: 25%;
+}
+#robotic_arm_compass{
+    width: 10%;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+
+}
+#robotic_arm_needle{
+    width: 1%;
+    position: absolute;
+    left: 44.55%;
+    top: 25%;
+}
+#rover_btn{
+    position: absolute;
+    left: 18%;
+    top: 50%;
+    padding: 0.5%;
+}
+#robotic_arm_btn{
+    position: absolute;
+    left: 41%;
+    top: 50%;
+    padding: 0.5%;
+}
 /*****************************   Responsive   ****************************************/
 
 @media only screen and (max-width: 1260px){

@@ -27,11 +27,11 @@ header{
     background-color: rgb(7, 139, 179);
 }
 .logo_image img{
-    width: 15%;
+    width: 10%;
 }
 #seds_logo{
     float: left;
-    width: 10%;
+    width: 7%;
     margin:1% 1% 1% -5%;
 }
 #vyadh_logo{
@@ -40,13 +40,16 @@ header{
 }
 .heading h1{
     margin: 1% auto 0% 25%;
+    font-size: 90%;
 }
 .heading h3{
     margin: 1% auto 0% 25%;
+    font-size: 90%;
 }
 /*****************************   Navigation   ****************************************/
 .navigation_buttons{
     margin-left: 22%;
+    font-size: 60%;
 }
 
 .navigation_buttons button{
