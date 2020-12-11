@@ -29,6 +29,53 @@
             </div>
         </div>
     </header>
+    <!---------------------------------- sensor values ---------------------------------------->
+    <section class="sensor_values">
+        <div class="whole_sensor">
+            <div class="top_three">
+                <div class="PH_sensor sensor">
+                    <h3>PH Sensor</h3>
+                    <input type="text" id="PH_sensor_value">
+                </div>
+                <div class="co2_sensor sensor">
+                    <h3>CO2 Sensor</h3>
+                    <input type="text" id="co2_sensor_value">
+                </div>
+                <div class="temperature sensor">
+                    <h3>Temperature Sensor</h3>
+                    <input type="text" id="temperature_sensor_value">
+                </div>
+            </div>
+            <div class="bottom_three">
+                <div class="humidity_sensor sensor">
+                    <h3>humidity Sensor</h3>
+                    <input type="text" id="humidity_sensor_value">
+                </div>
+                <div class="fifth_sensor sensor">
+                    <h3>Fifth Sensor</h3>
+                    <input type="text" id="fifth_sensor_value">
+                </div>
+                <div class="sixth_sensor sensor">
+                    <h3>Sixth Sensor</h3>
+                    <input type="text" id="sixth_sensor_value">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------- Graph ---------------------------------------->
+    <!-- button for graph -->
+
+    <button id="spectrometric_graph_button">Spectrometric Graph</button>
+
+    <section class="section_graph">
+        <div class="graph">
+            <div id="chart"></div>
+        </div>
+    </section>
+
+
+<script src="JS/plotly.min.js"></script>
 </body>
 <script src="JS/script_science.js"></script>
 </html>

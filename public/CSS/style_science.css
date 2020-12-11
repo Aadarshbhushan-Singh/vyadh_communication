@@ -58,6 +58,26 @@ header{
     margin: 2%;
     padding: 1%;
 }
+/*****************************   Sensor Values   ****************************************/
+.top_three div, .bottom_three div{
+    display: inline-block;
+    color: red;
+    margin:2% 0px 0px 13%;
+    
+}
+.whole_sensor h3{
+    padding: 2%;
+    text-align: center;
+}
+/*****************************   Spectrometric Graph Button   ****************************************/
+#spectrometric_graph_button{
+    padding: 1%;
+    margin: 2% 0px 2% 13%;
+}
+#spectrometric_graph_button:hover{
+    color: red;
+    transition: 0.1s;
+}
 
 /*****************************   Responsive   ****************************************/
 
