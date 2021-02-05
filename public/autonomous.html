@@ -29,6 +29,50 @@
             </div>
         </div>
     </header>
+    <!-- Code from previous year -->
+    <section>
+        <div class="flex">
+            <div id="input">
+                INPUT
+                <div>
+                    Latitude
+                    <input type="text" id="lat" value="0.0" size="5" autocomplete="off" class="selectable">
+                </div>
+                <div>
+                    Longitude
+                    <input type="text" id="long" value="0.0" size="5" autocomplete="off" class="selectable">
+                </div>
+                <div id="submit" style="margin: 0 8em;">SUBMIT</div>
+            </div>
+            <div id="output">
+                OUTPUT
+                <div class="flex" style="margin-top: 0.8em; padding:0;">
+                    <div class="mag flex-column-center border">
+                        <div class="mag-head border">CURRENT BEARING</div>
+                        <img id="compass0" alt="Rover Magnetometer" src="images/compass.png" class="compass" alt="Rover Mangetometer Compass Image">
+                        <img id="needle0" alt="Magnetometer Needle" src="images/needle.png" class="needle" alt="Mangetometer Image">
+                        <span class="mag-text border-tb">Yaw:&nbsp;<span id="mag-text0">0.0°</span></span>
+                    </div>
+                    <div class="mag flex-column-center border">
+                        <div class="mag-head border">TARGET BEARING</div>
+                        <img id="compass1" alt="Robotic Arm Magnetometer" src="images/compass.png" class="compass" alt="Compass Robotic Arm">
+                        <img id="needle1" alt="Magnetometer Needle" src="images/needle.png" class="needle" alt="Mangetometer Needle">
+                        <span class="mag-text border-tb">Yaw:&nbsp;<span id="mag-text1">0.0°</span></span>
+                    </div>
+                </div>
+                <div class="border">
+                    Target Distance:&nbsp;<span id="target-distance"></span>
+                </div>
+                <div class="border">
+                    Commands
+                    <div id="commands"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script type="text/javascript" src="js/eventemitter.min.js"></script>
+<script type="text/javascript" src="js/roslib.min.js"></script>
 </body>
 <script src="JS/script_autonomous.js"></script>
 </html>

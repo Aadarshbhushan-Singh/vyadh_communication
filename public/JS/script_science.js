@@ -58,15 +58,13 @@ var spectrometric_graph_button=document.getElementById("spectrometric_graph_butt
 
 
 function show_graph(){
-    var x=document.getElementByClassName("graph");
+    var x=document.getElementById("chart");
     if(x.style.display==="none"){
         x.style.display="block";
     }else{
         x.style.display="none";
     }
 };
-// show_graph();
-spectrometric_graph_button.onclick=show_graph();
 
 //For chart
 var chart=document.getElementById("chart");
