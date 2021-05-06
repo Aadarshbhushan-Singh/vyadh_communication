@@ -39,12 +39,14 @@ header{
     margin: 1% -5% 1% 1%;
 }
 .heading h1{
-    margin: 1% auto 0% 25%;
+    margin: 1% auto 0% 36%;
     font-size: 90%;
+    color: white;
 }
 .heading h3{
-    margin: 1% auto 0% 25%;
+    margin: 1% auto 0% 33%;
     font-size: 90%;
+    color: white;
 }
 /*****************************   Navigation   ****************************************/
 .navigation_buttons{
@@ -53,10 +55,22 @@ header{
 }
 
 .navigation_buttons button{
-    /* margin-left: 2%; */
-    /* margin-top: 2%; */
     margin: 2%;
-    padding: 1%;
+    padding: 1.2%;
+    border-radius:10%;
+    
+}
+.navigation_buttons button:hover{
+    background: linear-gradient(90deg, #045de9 , #09c6f9 );
+    color: black;
+    box-shadow:0.8px 0.8px 0.8px 1.2px white;
+    transition: all 0.2s;
+}
+#navigation_science{
+    background: linear-gradient(90deg, #045de9 , #09c6f9 );
+    color: white;
+    box-shadow:0.8px 0.8px 0.8px 1.2px;
+    transition: all 0.2s;
 }
 /*****************************   Sensor Values   ****************************************/
 .top_three div, .bottom_three div{
@@ -68,6 +82,9 @@ header{
 .whole_sensor h3{
     padding: 2%;
     text-align: center;
+}
+.spectrophotometer_sensor h3{
+    margin-left: -23%;
 }
 /*****************************   Spectrometric Graph Button   ****************************************/
 #spectrometric_graph_button{

@@ -124,3 +124,75 @@ video{
   padding: 2% 12%;
 }
 
+/*************************** System Offline and System Online **************************/
+.system_online h1, .system_offline h1{
+  color: white;
+  position: absolute;
+  left: 33.5%;
+  top: 10%;
+  font-size: 300%;
+
+}
+.left_checklist ul, .right_checklist ul{
+  list-style-type: none;
+}
+/* Animation for showing offline for 5s and then hiding.*/
+.system_offline h1{
+  animation: offlineAnimation 0s 5s forwards;
+  visibility: visible;
+  color: red;
+}
+@keyframes offlineAnimation {
+  to {visibility: hidden;}
+}
+
+/*Animation for showing online status after 5s.*/
+.system_online h1 {
+  animation: onlineAnimation 0s 5s forwards;
+  visibility: hidden;
+  color: rgb(0, 245, 0);
+}
+
+@keyframes onlineAnimation {
+  to   { visibility: visible; }
+}
+
+/******************************* For checklist **************************/
+.right_checklist, .left_checklist{
+  color: red;
+  position: absolute;
+  top: 66%;
+  font-size: 130%;  
+}
+.left_checklist{
+  left: 20%;
+}
+.right_checklist{
+  left: 60%;
+}
+/*First Three seconds*/
+#antena, #back_cam, #end_effector_cam,  #front_cam{
+  animation: first2 0s 3s forwards;
+  color: red;
+}
+@keyframes first2{
+  to{color: rgb(1, 253, 1);}
+}
+
+/*First Four seconds*/
+#left_wheel, #arm_driver1, #arm_driver2, #arm_driver3{
+  animation: first2 0s 4s forwards;
+  color: red;
+}
+@keyframes first2{
+  to{color: rgb(1, 253, 1);}
+}
+
+/*First Five seconds*/
+#ros, #right_wheel, #science_cam, #panaromic_cam, #arm_cam{
+  animation: first2 0s 4.8s forwards;
+  color: red;
+}
+@keyframes first2{
+  to{color: rgb(1, 253, 1);}
+}

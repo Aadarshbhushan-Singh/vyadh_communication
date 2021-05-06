@@ -21,8 +21,8 @@ var PH_sensor_value=document.getElementById("PH_sensor_value");
 var co2_sensor_value=document.getElementById("co2_sensor_value");
 var temperature_sensor_values=document.getElementById("temperature_sensor_values");
 var humidity_sensor_value=document.getElementById("humidity_sensor_value");
-var fifth_sensor_values=document.getElementById("fifth_sensor_values");
-var sixth_sensor_values=document.getElementById("sixth_sensor_values");
+var thermal_sensor_values=document.getElementById("thermal_sensor_values");
+var spectrophotometer_sensor_values=document.getElementById("spectrophotometer_sensor_values");
 
 function PH_sensor(){
     return 0;
@@ -37,10 +37,10 @@ function temperature_sensor(){
 function humidity_sensor(){
     return 0;
 };
-function fifth_sensor(){
+function thermal_sensor(){
     return 0;
 };
-function sixth_sensor(){
+function spectrophotometer_sensor(){
     return 0;
 };
 
@@ -48,8 +48,8 @@ PH_sensor_value.value=PH_sensor();
 co2_sensor_value.value=co2_sensor();
 temperature_sensor_value.value=temperature_sensor();
 humidity_sensor_value.value=humidity_sensor();
-fifth_sensor_value.value=fifth_sensor();
-sixth_sensor_value.value=sixth_sensor();
+thermal_sensor_value.value=thermal_sensor();
+spectrophotometer_sensor_value.value=spectrophotometer_sensor();
 
 // For making graph
 
