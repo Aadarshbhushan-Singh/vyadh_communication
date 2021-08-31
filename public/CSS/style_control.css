@@ -75,6 +75,37 @@ header{
     box-shadow:0.8px 0.8px 0.8px 1.2px;
     transition: all 0.2s;
 }
+/* stop */
+.emergency_button{
+    position: absolute;
+    left: 89%;
+    margin-top: -5.5%;
+    
+}
+#stop{
+    padding: 20% 50% 25% 50%;
+    background-color: red;
+    color: white;
+    box-shadow:  0 0 3px 2px white, 0 0 50px white;
+    border-radius: 5%;
+}
+#stop:hover{
+    background-color: rgb(207, 41, 41);
+    box-shadow: 0 0 3px 3px white, 0 0 50px white;
+}
+
+/* start */
+#start{
+    padding: 20% 50% 25% 50%;
+    background-color: rgb(55, 173, 55);
+    color: white;
+    box-shadow:  0 0 3px 2px white, 0 0 50px white;
+    border-radius: 5%;
+}
+#start:hover{
+    background-color: green;
+    box-shadow: 0 0 3px 3px white, 0 0 50px white;
+}
 /*****************************   Compass   ****************************************/
 
 #rover_compass{

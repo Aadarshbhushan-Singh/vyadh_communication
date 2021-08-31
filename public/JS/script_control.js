@@ -14,6 +14,26 @@ document.getElementById("navigation_camera").onclick=function(){
 document.getElementById("navigation_science").onclick=function(){
     location.href="science.html";
 };
+var startButton=document.getElementById("start");
+var stopButton=document.getElementById("stop");
+startButton.style.display="none";
+//stop button
+stopButton.onclick=function(){
+    var getStopConfirmation=confirm("Do you want to shut down rover?");
+    if(getStopConfirmation==true){
+        stopButton.style.display="none";
+        startButton.style.display="block";
+    }
+}
+
+startButton.onclick=function(){
+    var getStartConfirmation=confirm("Do you want to start the rover?");
+    if(getStartConfirmation==true)
+    {
+        startButton.style.display="none";
+        stopButton.style.display="block";
+    }
+}
 
 //Adding functionality to buttons for magnetometer
 
