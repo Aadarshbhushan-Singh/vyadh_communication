@@ -1,6 +1,6 @@
 # Vyadh_Communication_Module
 ## Home Page
-![Home_Page](https://github.com/Aadarshbhushan-Singh/vyadh_communication/assets/60377469/2425a3de-c373-4385-b338-d1b9bf5bc653)
+![Home_Page](https://github.com/Aadarshbhushan-Singh/vyadh_communication/assets/60377469/34a031c4-3467-4e34-a87c-742750b8f1de)
 
 ## Control Page
 ![Control_Page](https://github.com/Aadarshbhushan-Singh/vyadh_communication/assets/60377469/9509c10f-62b3-43f4-a7df-895f82d4b134)
